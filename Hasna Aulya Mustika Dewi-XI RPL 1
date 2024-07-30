@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .table {
+    font-family: sans-serif;
+    color: #444;
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px solid #f2f5f7;
+}
+ 
+.table tr th{
+    background: #ec78c6;
+    color: #fff;
+    font-weight: normal;
+}
+ 
+.table, th, td {
+    padding: 8px 20px;
+    text-align: center;
+}
+ 
+.table tr:hover {
+    background-color: #f5f5f5;
+}
+
+    </style>
+</head>
+<body>
+    <br><center>
+        <header>
+            <h1>Pemrograman Berorientasi Objek (PBO)</h1>
+        </header></center>
+   <h2> 1. Sejarah Pemrograman Berorientasi Objek</h2>
+    <p>Pemrograman berorientasi objek (Object-Oriented Programming atau OOP) merupakan paradigma pemrograman yang revolusioner dalam dunia teknologi informasi. Paradigma ini mengubah cara kita memikirkan dan merancang program komputer dengan memusatkan perhatian pada objek-objek yang memiliki atribut dan perilaku yang saling terkait. Sejarah perkembangan OOP mencakup beberapa tahapan penting yang menandai evolusi paradigma ini dari konsep awal hingga menjadi standar dalam industri teknologi saat ini.</p>
+    <h3>❀Perkembangan awal konsep objek dan kelas</h3>
+    <p>Pada tahun 1960-an, Kristen Nygaard dan Ole-Johan Dahl dari Norwegia mengembangkan bahasa pemrograman Simula. Simula merupakan bahasa pertama yang secara eksplisit memperkenalkan konsep pemrograman berorientasi objek. Mereka menggunakan ide ini untuk mensimulasikan sistem yang kompleks seperti simulasi jaringan dan proses.
+        Salah satu kontribusi paling berpengaruh dari Simula adalah pengenalan kelas dan objek sebagai konsep sentral dalam pemrograman. Objek dalam Simula direpresentasikan sebagai entitas yang memiliki data (state) dan perilaku (behavior) yang terkait. Setiap objek adalah instance dari sebuah kelas yang mendefinisikan struktur dan perilaku dari objek tersebut.</p>
+     <h3>❀Bahasa pemrograman pertama yang mendukung PBO</h3>
+     <p>Bahasa pemrograman pertama yang secara eksplisit mendukung pemrograman berorientasi objek (PBO) adalah bahasa Simula. Simula dikembangkan oleh Kristen Nygaard dan Ole-Johan Dahl di Norwegia pada tahun 1967. Mereka menciptakan bahasa ini untuk mensimulasikan sistem kompleks dengan cara yang lebih intuitif dan terstruktur.
+        Salah satu inovasi utama dari Simula adalah pengenalan konsep kelas dan objek. Dalam Simula, objek direpresentasikan sebagai entitas yang memiliki data (state) dan perilaku (behavior) yang terkait. Setiap objek adalah instance dari sebuah kelas yang mendefinisikan struktur dan perilaku dari objek tersebut.
+        Simula juga memperkenalkan konsep inheritance (pewarisan), di mana sebuah kelas dapat mewarisi sifat dan perilaku dari kelas lain. Hal ini memungkinkan untuk pembuatan hierarki kelas yang lebih kompleks dan struktur yang lebih terorganisir.</p>
+    <h3>❀Peran bahasa pemrograman seperti Smalltalk, C++, dan Java dalam mempopulerkan PBO</h3>
+    <h4>◉Smalltalk <br>      
+    Smalltalk, dikembangkan pada tahun 1970-an di Xerox PARC oleh Alan Kay dan timnya, merupakan salah satu bahasa pemrograman pertama yang sepenuhnya berorientasi objek. Kontribusi utama Smalltalk adalah:
+    Pengenalan Konsep OOP: Smalltalk memperkenalkan secara eksplisit konsep kelas, objek, inheritance, encapsulation, dan polymorphism. Konsep-konsep ini diimplementasikan dengan sangat murni dan konsisten, sehingga membuatnya menjadi contoh yang kuat bagi bahasa-bahasa OOP yang kemudian dikembangkan.
+    Lingkungan Pengembangan Yang Kuat: Smalltalk juga menyediakan lingkungan pengembangan yang terintegrasi dan interaktif, yang memungkinkan pengembang untuk dengan cepat menguji dan mengembangkan kode secara iteratif. Hal ini mendukung praktik pengembangan perangkat lunak yang lebih eksperimental dan kolaboratif.</h4>
+    <h4>◉C++ <br>
+        C++ dikembangkan oleh Bjarne Stroustrup pada tahun 1980-an sebagai perluasan dari bahasa C yang sudah ada. Peran utama C++ dalam mempopulerkan PBO adalah:
+        Gabungan Pemrograman Prosedural dengan OOP: C++ menggabungkan paradigma pemrograman prosedural yang sudah mapan dengan konsep-konsep baru dari Smalltalk seperti kelas, objek, dan inheritance. Hal ini memungkinkan pengembang untuk menggunakan OOP secara bertahap dan mengintegrasikannya dengan kode yang sudah ada.
+        Pilihan yang Fleksibel: C++ memberikan fleksibilitas kepada pengembang dengan memungkinkan penggunaan paradigma OOP atau prosedural tergantung pada kebutuhan dan preferensi proyek. Ini membuatnya sangat cocok untuk pengembangan perangkat lunak yang kompleks dan aplikasi yang memerlukan performa tinggi.
+        C++ menjadi populer di kalangan pengembang perangkat lunak karena kemampuannya untuk menyatukan kekuatan OOP dengan kecepatan dan kontrol yang biasa ditemukan dalam bahasa prosedural tradisional. </h4>
+    <h4>◉Java <br>
+        Java, dikembangkan oleh Sun Microsystems pada tahun 1990-an, adalah bahasa pemrograman yang dirancang dengan tujuan untuk menjadi platform-independent dan mendukung pemrograman berorientasi objek secara penuh. Peran utama Java dalam mempopulerkan PBO adalah:
+        Platform-Independence: Java dirancang dengan prinsip "write once, run anywhere" (WORA), yang memungkinkan program Java untuk dijalankan di berbagai platform tanpa perlu kompilasi ulang. Hal ini membuatnya sangat cocok untuk pengembangan aplikasi lintas platform.
+        Kemudahan Penggunaan: Java menawarkan lingkungan pengembangan yang user-friendly dan terstruktur dengan baik, serta menyediakan berbagai library dan framework yang mendukung pengembangan perangkat lunak yang besar dan kompleks.
+        Keamanan dan Keandalan: Java mengatasi banyak masalah keamanan dan keandalan yang terkait dengan bahasa-bahasa sebelumnya, seperti manajemen memori yang lebih aman dan pengelolaan exception yang lebih baik.
+        Java menjadi bahasa yang sangat populer di dunia industri karena kombinasi antara kemudahan penggunaan, portabilitas, dan dukungan yang kuat terhadap paradigma PBO. Banyak aplikasi besar dan sistem yang kritis mengandalkan Java sebagai bahasa utama untuk pengembangan mereka.</h4>
+    <h3>Jelaskan bagaimana PBO telah mengubah cara perangkat lunak dikembangkan dan dipelihara.</h3>
+    1. Modularitas dan Reusabilitas Kode <br>
+    PBO mendorong pengembangan perangkat lunak dengan memecah sistem menjadi bagian-bagian yang lebih kecil yang disebut objek. Setiap objek mengelola data (state) dan operasi (behavior) yang spesifik untuk fungsionalitas tertentu. Konsep ini memungkinkan pengembang untuk membuat kode yang modular, di mana setiap objek dapat berfungsi secara independen dan dapat digunakan kembali dalam berbagai bagian aplikasi lainnya. Hal ini mengurangi duplikasi kode, meningkatkan efisiensi pengembangan, serta memudahkan pemeliharaan karena perubahan pada suatu objek tidak mempengaruhi objek lainnya secara langsung.
+    <p>
+    2. Encapsulation (Enkapsulasi) <br>
+    Enkapsulasi adalah konsep dalam PBO yang memungkinkan pengelompokan data (state) dan operasi (behavior) yang terkait dalam sebuah objek, dan membatasi akses langsung ke data hanya melalui metode-metode yang ditentukan. Hal ini meningkatkan keamanan dan integritas data dalam sebuah aplikasi, karena mengurangi risiko perubahan tidak disengaja atau akses tidak sah terhadap data. Selain itu, enkapsulasi juga memfasilitasi pengembangan paralel dan kolaboratif, di mana pengembang dapat bekerja secara terpisah pada berbagai bagian sistem tanpa saling mengganggu.
+    </p>
+    
+    <p>
+     3. Inheritance (Pewarisan) <br>
+     Konsep pewarisan memungkinkan pembuatan hierarki kelas, di mana kelas baru (subclass atau turunan) dapat mewarisi sifat dan perilaku dari kelas yang sudah ada (superclass atau induk). Pewarisan memfasilitasi penggunaan kembali kode, karena subclass dapat menambahkan atau memodifikasi perilaku yang sudah ada tanpa mengubah superclass-nya secara fundamental. Dengan pewarisan, pengembang dapat menciptakan struktur yang lebih terstruktur dan mudah dimengerti, serta mengurangi kompleksitas dalam pengembangan aplikasi yang besar dan kompleks.
+    </p>
+
+    <p>
+    4. Polymorphism (Polimorfisme) <br>
+    Polimorfisme memungkinkan objek dari berbagai kelas yang berbeda untuk menanggapi metode-metode yang sama sesuai dengan konteks penggunaannya. Dengan kata lain, objek dapat berperilaku secara berbeda tergantung pada jenis objeknya, tetapi interaksi dengan objek tersebut menggunakan antarmuka yang seragam. Polimorfisme meningkatkan fleksibilitas dan modularitas dalam kode, memungkinkan pengembang untuk menangani berbagai situasi dengan menggunakan kode yang lebih efisien dan mudah dimengerti.
+    </p>
+
+    <p>
+    5. Pengelolaan Kompleksitas <br>
+    Salah satu manfaat utama PBO adalah kemampuannya untuk mengelola kompleksitas dalam pengembangan perangkat lunak. Dengan membagi aplikasi menjadi objek-objek yang terdefinisi dengan baik, pengembang dapat fokus pada detil tertentu tanpa harus memahami keseluruhan sistem secara menyeluruh. Ini mempermudah pengembangan tim, memungkinkan untuk spesialisasi dalam bagian-bagian tertentu dari aplikasi, dan mengurangi risiko kesalahan dalam pengembangan.
+    </p>
+
+    <center>
+    <h2> 2. Perbedaan Pemgrograman Prosedural dan PBO</h2>
+    <table class="table">
+        <tr>
+            <th>Aspek</th>
+            <th>Pemrograman Prosedural</th>
+            <th>Pemrograman Berorientasi Objek</th>
+        </tr>
+        <tr>
+            <td>Struktur Program</td>
+            <td>Berdasarkan fungsi dan prosedur</td>
+            <td>Berdasarkan objek dan kelas</td>
+        </tr>
+        <tr>
+            <td>Pendekatan</td>
+            <td>Berfokus pada urutan langkah</td>
+            <td>Berfokus pada data dan interaksi objek</td>
+        </tr>
+        <tr>
+            <td>Kelebihan</td>
+            <td>Sederhana untuk masalah kecil, cepat</td>
+            <td>Mudah untuk pemeliharaan, modular</td>
+        </tr>
+        <tr>
+            <td>Contoh Bahasa</td>
+            <td>C, Pascal</td>
+            <td>C++, Java, Python</td>
+        </tr>
+        </table>
+    </center>
+</body>
+</html>
