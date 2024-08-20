@@ -1,0 +1,52 @@
+# Mendefinisikan kelas Kalkulator
+class Kalkulator:
+    # Konstruktor kelas, dipanggil saat objek dibuat
+    def __init__(self):
+        # Menampilkan pesan saat objek kalkulator diinisialisasi
+        print("Kalkulator siap digunakan.")
+
+    # Metode untuk penjumlahan dua angka
+    def tambah(self, a, b):
+        # Mengembalikan hasil penjumlahan a dan b
+        return a + b
+
+    # Metode untuk pengurangan dua angka
+    def kurang(self, a, b):
+        # Mengembalikan hasil pengurangan a dan b
+        return a - b
+
+    # Metode untuk perkalian dua angka
+    def kali(self, a, b):
+        # Mengembalikan hasil perkalian a dan b
+        return a * b
+
+    # Metode untuk pembagian dua angka
+    def bagi(self, a, b):
+        # Memeriksa apakah pembagi (b) bukan nol
+        if b != 0:
+            # Mengembalikan hasil pembagian a dengan b
+            return a / b
+
+        else:
+            # Mengembalikan pesan error jika b adalah nol
+            return "Error! Pembagian dengan nol tidak diperbolehkan."
+
+# Membuat objek dari kelas Kalkulator
+kalkulator = Kalkulator()
+
+# Menggunakan objek kalkulator untuk melakukan penjumlahan
+print("Penjumlahan: 5 + 7 =", kalkulator.tambah(5, 7))
+
+# Menggunakan objek kalkulator untuk melakukan pengurangan
+print("Pengurangan: 10 - 3 =", kalkulator.kurang(10, 3))
+
+# Menggunakan objek kalkulator untuk melakukan perkalian
+print("Perkalian: 9 * 3 =", kalkulator.kali(9, 3))
+
+# Menggunakan objek kalkulator untuk melakukan pembagian
+print("Pembagian: 5 / 3 =", kalkulator.bagi(5, 3))
+
+# Contoh pembagian dengan nol
+print("Pembagian dengan nol: 5 / 0 =", kalkulator.bagi(5, 0))
+
+
